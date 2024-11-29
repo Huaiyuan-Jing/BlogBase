@@ -167,7 +167,7 @@ So these are sentences jumps to 1373 and its requirements. We can see "%esi == 6
     133a:	74 a7                	je     12e3 <main+0x4e>
 ```
 
-These instructions is the only place that changes %esi's value and jump to the previous block. So the requirements of this block is "%eax == %ebx + %esi _ 4 + 0x50", which %eax is the result of strtol of our inputs. Now the requirement is clear: our inputs must be an integer and equals to value in "%ebx + %esi _ 4 + 0x50".
+These instructions is the only place that changes %esi's value and jump to the previous block. So the requirements of this block is "%eax == %ebx + %esi _ 4 + 0x50", which %eax is the result of strtol of our inputs. Now the requirement is clear: our inputs must be an integer and equals to value in "%ebx + %esi * 4 + 0x50".
 
 ## Step 3: Using GDB to get password
 
