@@ -110,3 +110,4 @@ theme: stellar
 deploy:
   type: git
   repo: https://github.com/Huaiyuan-Jing/Huaiyuan-Jing.github.io
+  branch: master
