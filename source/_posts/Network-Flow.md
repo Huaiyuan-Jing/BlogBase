@@ -245,7 +245,7 @@ impl MaxFlow {
     }
 }
 ```
-# 4: ISAP Algorithmn
+# 4: Soluiton 3: ISAP Algorithmn
 
 1. Perform a BFS from t to s and mark the depth (why it's from t to s will be explained later).
 
