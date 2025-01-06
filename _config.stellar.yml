@@ -1,15 +1,44 @@
 # @format
 
 menubar:
-    columns: 1 # 一行多少个
-    items: # 可按照自己需求增加，符合以下格式即可
-        - id: about
-        - theme: ""
-        - title: About
-        - icon: ""
-        - url: /about/
+  columns: 1 # 一行多少个
+  items: # 可按照自己需求增加，符合以下格式即可
+    - id: about
+    - theme: ""
+    - title: About
+    - icon: ""
+    - url: /about/
 
 article:
-    type: tech # tech/story
-    auto_cover: true
-    auto_excerpt: 500
+  type: tech # tech/story
+  auto_cover: true
+  auto_excerpt: 500
+
+style:
+  color:
+    # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
+    background: "hsl(212 16% 98%)" # 浅色背景颜色
+    block: "hsl(212 8% 95%)" # 块背景颜色
+    code: "hsl(14 100% 48%)" # 行内代码颜色
+    text: "hsl(0 0% 20%)" # 文本颜色
+    # 主题色配置（不会根据明暗动态调整，请设置为通用的颜色）
+    theme: "hsl(192 98% 55%)" # 主题色
+    accent: "hsl(14 100% 57%)" # 强调色
+    link: "hsl(207 90% 54%)" # 超链接颜色
+    button: "hsl(192 98% 55%)" # 按钮颜色
+    hover: "hsl(14 100% 57%)" # 按钮高亮颜色
+  font-size:
+    root: 16px
+    body: .9375rem # 15px
+    code: 85% # 14px
+    codeblock: 0.8125rem # 13px
+  font-family:
+    logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+
+# 默认打开
+loading:
+  loading: Loading...
+  error: Fail to load
