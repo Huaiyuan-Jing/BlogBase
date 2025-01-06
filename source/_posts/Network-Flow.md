@@ -1,7 +1,8 @@
 ---
 title: Network Flow
 date: 2025-01-02 11:11:58
-tags: 
+tags: Algorithm
+cover: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.qg86zWKCA9IEG7HeFHc0iAHaDl%26pid%3DApi&f=1&ipt=803fbe7302fa49784f738293b14e1c3490a44902c36d89004ad460c43908192e&ipo=images
 mathjax: true
 ---
 # 1: Problem Description

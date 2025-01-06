@@ -1,7 +1,8 @@
 ---
 title: Basic Reverse Engineering by using GDB
 date: 2024-11-29 11:50:19
-tags:
+tags: [Reverse Engineering, ]
+cover: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.GhUUohzkndjf9YNnia_wHgHaEB%26pid%3DApi&f=1&ipt=49d0a2d194c37fc597946bf7704ff53c1dab7ccb86287936cd7d7b74d5c8e80f&ipo=images
 ---
 
 <!-- @format -->
