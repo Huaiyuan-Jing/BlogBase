@@ -111,3 +111,28 @@ deploy:
   type: git
   repo: https://github.com/Huaiyuan-Jing/Huaiyuan-Jing.github.io
   branch: master
+
+index:
+  slogan:
+    enable: true
+    text:
+    api:
+      enable: false
+      url: "https://v1.hitokoto.cn/"
+      method: "GET"
+      headers: {}
+      keys: ["hitokoto"]
+
+post:
+  math:
+    enable: true
+    specific: true
+    engine: mathjax
+
+about:
+  icons: 
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com/Huaiyuan-Jing', tip: 'GitHub' } 
+    - { class: 'iconfont icon-linkedin-fill', link: 'https://www.linkedin.com/in/huaiyuan-jing-823b93240/', tip: 'GitHub' } 
+  avatar: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Sisyphus.jpg?raw=true
+  name: "Solaire"
+  intro: "We must imagine Sisyphus happy."
