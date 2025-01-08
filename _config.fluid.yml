@@ -10,14 +10,12 @@ subtitle: ''
 description: ''
 keywords:
 author: HuaiYuan Jing
-language: 
-  -en
-  -zh-CN
+language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://huaiyuan-jing.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -115,7 +113,7 @@ deploy:
 index:
   slogan:
     enable: true
-    text:
+    text: "Code Speak Louder Than Word" 
     api:
       enable: false
       url: "https://v1.hitokoto.cn/"
@@ -136,3 +134,20 @@ about:
   avatar: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Sisyphus.jpg?raw=true
   name: "Solaire"
   intro: "We must imagine Sisyphus happy."
+
+dark_mode:
+  enable: true
+  default: auto
+
+lazyload:
+  enable: true
+  loading_img: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Sisyphus.jpg?raw=true
+  onlypost: false
+  offset_factor: 2
+
+navbar:
+  blog_title: Programming Diary
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill', name: 'Home' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill', name: 'Tag' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: 'About' }
