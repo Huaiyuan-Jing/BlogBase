@@ -25,7 +25,7 @@ h1:
 type:
 math: true
 ---
-量子纠错算法是量子计算领域的核心技术之一，旨在应对量子比特（qubits）易受环境干扰导致信息丢失或出错的问题。由于量子系统的特性，如叠加态和量子纠缠，使得量子信息极其脆弱，任何微小的噪声或相位偏移都可能破坏计算的准确性。量子纠错通过设计特殊的编码方案，将一个量子比特的信息分布到多个物理量子比特上，从而检测和纠正错误，而不会破坏量子态。例如，经典的量子纠错码包括肖尔码（Shor Code）、斯坦恩码（Steane Code）和表面码（Surface Code）。这些算法能够识别和修复比特翻转（bit-flip）错误、相位翻转（phase-flip）错误或两者同时发生的错误，为构建可靠的大规模量子计算机提供了坚实的基础。这篇文章将介绍Shor Code的架构.
+量子纠错算法是量子计算领域的核心技术之一,旨在应对量子比特(qubits)易受环境干扰导致信息丢失或出错的问题。由于量子系统的特性，如叠加态和量子纠缠，使得量子信息极其脆弱，任何微小的噪声或相位偏移都可能破坏计算的准确性。量子纠错通过设计特殊的编码方案，将一个量子比特的信息分布到多个物理量子比特上，从而检测和纠正错误，而不会破坏量子态。例如，经典的量子纠错码包括肖尔码（Shor Code）、斯坦恩码（Steane Code）和表面码（Surface Code）。这些算法能够识别和修复比特翻转（bit-flip）错误、相位翻转（phase-flip）错误或两者同时发生的错误，为构建可靠的大规模量子计算机提供了坚实的基础。这篇文章将介绍Shor Code的架构.
 
 # Bit Flip
 
@@ -33,9 +33,9 @@ bit flip error（比特翻转错误）是最常见的一种错误类型，它指
 
 ## Correction Circuit
 
-+ 首先将一个逻辑比特用三个物理比特表示
++ 首先通过cx将一个逻辑比特用三个物理比特表示 (cx为control-x, 效果为如果控制位的qubit的值为1, 则翻转对应的qubit, 在下图中表现为如果q0为|1>, 对应翻转q1和q2的值)
 
-![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/45b58c05-d21f-4a36-9f33-671196ff3b3a.png?raw=true)
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/9fafab4b-f7f8-4815-8500-599576ae1f1f.png?raw=true)
 
 + 三个逻辑比特中的一个出现了比特翻转错误
 
