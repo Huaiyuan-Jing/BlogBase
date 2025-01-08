@@ -61,3 +61,7 @@ bit flip error（比特翻转错误）是最常见的一种错误类型，它指
 ## Accuracy Calculate
 
 因为这个最基本的电路只有三个比特, 所以它只能容忍一个比特的翻转错误, 超过一个比特就无法正确的纠错了. 假设一个物理比特的出现翻转错误的概率是p, 也就是说这个电路出现翻转错误的比特的数量~$Binary(3, p)$. 那么这个逻辑比特的出现翻转错误的概率就是$p^3 + 3 * p ^ 2 * (1 - p)$, 即出现三个翻转错误和两个翻转错误的概率之和. 如果绘制出这两个概率的曲线, 可以看到:
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/image_2025-01-08_10-14-29.png?raw=true)
+
+在p < 0.5时, 这个Logical Bit能给我们带来更低的错误率.
