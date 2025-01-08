@@ -34,6 +34,10 @@ bit flip error（比特翻转错误）是最常见的一种错误类型，它指
 
 + 首先将一个逻辑比特用三个物理比特表示
 
-![](/_posts/量子纠错-Shor-Code/9fafab4b-f7f8-4815-8500-599576ae1f1f.png)
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/45b58c05-d21f-4a36-9f33-671196ff3b3a.png?raw=true)
 
 + 三个逻辑比特中的一个出现了比特翻转错误
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/45b58c05-d21f-4a36-9f33-671196ff3b3a.png?raw=true)
+
++ 通过cx检查两两相邻的qubit的奇偶性,
