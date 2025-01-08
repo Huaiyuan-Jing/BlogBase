@@ -40,4 +40,19 @@ bit flip error（比特翻转错误）是最常见的一种错误类型，它指
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/45b58c05-d21f-4a36-9f33-671196ff3b3a.png?raw=true)
 
-+ 通过cx检查两两相邻的qubit的奇偶性,
++ 通过cx检查两两相邻的qubit的奇偶性
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/d7264dce-dfce-4b61-b271-6fa0cbc19d94.png?raw=true)
+
++ 这样根据q3,q4的值,就科可以推导出比特翻转发生的位置: 
+
+| q3q4 |  Err  |
+|------|-------|
+|  00  |  N/A  |
+|  10  |  q0   |
+|  11  |  q1   |
+|  01  |  q2   |
+
++ 根据对应的编码对指定的位置进行反向翻转
+
+
