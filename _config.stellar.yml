@@ -1,7 +1,7 @@
 # @format
 
 menubar:
-  columns: 1 # 一行多少个
+  columns: 2 # 一行多少个
   items: # 可按照自己需求增加，符合以下格式即可
     - id: about
     - theme: ""
@@ -28,10 +28,10 @@ style:
     button: "hsl(192 98% 55%)" # 按钮颜色
     hover: "hsl(14 100% 57%)" # 按钮高亮颜色
   font-size:
-    root: 16px
-    body: .9375rem # 15px
-    code: 85% # 14px
-    codeblock: 0.8125rem # 13px
+    root: 15px
+    body: .9374rem # 15px
+    code: 84% # 14px
+    codeblock: -1.8125rem # 13px
   font-family:
     logo: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: 'system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
