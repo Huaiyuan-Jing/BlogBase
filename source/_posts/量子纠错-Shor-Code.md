@@ -72,6 +72,8 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 
 实验一下这个电路能否按照设计的工作
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/d9c3ff0e-5556-4b29-8740-4df0e9c50cfc.png?raw=true)
+
 
 
 # Phase Flip
