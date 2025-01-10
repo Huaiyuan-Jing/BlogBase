@@ -72,6 +72,8 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 
 实验一下这个电路能否按照设计的工作, 测试通过在预定位置手动添加X门的方式来模拟bit flip error.
 
+{%gi 6 2-2-2%}
+
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/d9c3ff0e-5556-4b29-8740-4df0e9c50cfc.png?raw=true)
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
@@ -83,6 +85,8 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/e0a0c764-909a-4ff1-8342-99f26597c7ee.png?raw=true)
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
+
+{%endgi%}
 
 可以看见, 在模拟测试下, q0, q1, q2三个比特中的任意一个比特发生bit flip error并不会影响当前逻辑比特的状态.
 
@@ -122,6 +126,8 @@ $$
 
 实验电路是否正常工作, 因为使用了Hadamard门编码解码, 这样在中间发生的phase flip将会被转换为bit flip并可以通过measure检测.
 
+{%gi 6 2-2-2%}
+
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/9cc9d438-c438-46ee-a2a5-3921aa4b18aa.png?raw=true)
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
@@ -133,6 +139,8 @@ $$
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/523bc553-fbe9-4f6c-97b6-edac3cf5d0c3.png?raw=true)
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
+
+{%endgi%}
 
 如图所示, 三个物理比特上如果存在一个phase flip error是可以被纠正的
 
