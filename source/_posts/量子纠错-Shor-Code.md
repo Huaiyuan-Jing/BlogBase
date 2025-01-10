@@ -81,7 +81,7 @@ phase flip error相位反转错误是另一种常见的错误类型, 可以表�
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/d6146133-e052-4969-ad0a-a0e178114040.png?raw=true) 
 
-我们可以用下面这个式子来理解对于一个比特的检测是如何实现的
+我们可以用下面这个式子来理解对于一个比特的phase flip error检测是如何实现的
 $$
 |-+\rangle \xrightarrow{expand} 
 |00\rangle + |01\rangle - |10\rangle - |11\rangle 
@@ -92,5 +92,9 @@ $$
 可以看见, 通过cx门, 被检测位置的$|-\rangle$被传播到了检测位置的比特上, 这样就实现了与上面bit flip检测类似的效果
 
 + 在measure结果对应的位置的比特上应用修复的Z门
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/8778f677-f027-47f7-bb13-c9f1d7ca98b1.png?raw=true)
+
++ 最后把用Hadamard门转换的物理比特解码为原本的状态
 
 
