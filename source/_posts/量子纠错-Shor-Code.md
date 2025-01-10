@@ -37,7 +37,7 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/9fafab4b-f7f8-4815-8500-599576ae1f1f.png?raw=true)
 
-+ 三个逻辑比特中的一个出现了比特翻转错误
++ 假设三个逻辑比特中的一个出现了比特翻转错误
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/45b58c05-d21f-4a36-9f33-671196ff3b3a.png?raw=true)
 
@@ -45,7 +45,7 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/d7264dce-dfce-4b61-b271-6fa0cbc19d94.png?raw=true)
 
-+ 这样根据q3,q4的值,就科可以推导出比特翻转发生的位置: 
++ 这样根据q3,q4的值,就可以推导出比特翻转发生的位置: 
 
 | q3q4 |  Err  |
 |------|-------|
@@ -54,7 +54,9 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 |  11  |  q1   |
 |  01  |  q2   |
 
-+ 根据对应的编码对指定的位置进行反向翻转
+在上面的案例里, q3q4 measure的结果是11, 也就是说q1出现了比特翻转.
+
++ 根据对应的编码对指定的位置进行反向翻转, 在上面的案例里就是在q1上应用X门
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/42e3e338-4727-4dd9-ab54-b5114bb509d5.png?raw=true)
 
@@ -65,6 +67,12 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/image_2025-01-08_10-14-29.png?raw=true)
 
 在p < 0.5时, 这个Logical Bit能给我们带来更低的错误率.
+
+## Test
+
+实验一下这个电路能否按照设计的工作
+
+
 
 # Phase Flip
 
