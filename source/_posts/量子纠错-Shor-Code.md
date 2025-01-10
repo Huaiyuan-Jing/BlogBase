@@ -76,6 +76,10 @@ bit flip error (比特翻转错误) 是最常见的一种错误类型，它指�
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/76f9a782-3363-4f27-8c8f-763305a4802a.png?raw=true)
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
+
 
 
 # Phase Flip
