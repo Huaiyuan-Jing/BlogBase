@@ -131,6 +131,12 @@ $$
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/523bc553-fbe9-4f6c-97b6-edac3cf5d0c3.png?raw=true)
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
+
+如图所示, 三个物理比特上的一个phase flip error是可以被纠正的
+
 ## Remain Problem
 
 到目前为止, bit flip error和phase flip error都有对应的电路解决了, 但共有的问题就在于任意一种电路都没法处理另一种类型的错误. 而下面就会介绍完备的解决方案.
