@@ -75,4 +75,5 @@ phase flip error相位反转错误是另一种常见的错误类型, 可以表�
 
 + 与bit flip correction circuit一样, 用三个物理比特表示一个逻辑比特, 并且为每个比特添加一个Hadamard门
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/41ff177e-2348-4be0-b561-467ab134d3f3.png?raw=true)
 
