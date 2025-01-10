@@ -123,6 +123,10 @@ $$
 
 实验电路是否正常工作, 与bit flip circuit不同的是, phase flip circuit把物理比特的初始状态通过Hadamard Gate编译再解码, 这样在中间发生的phase flip将会被转换为bit flip并可以通过measure检测.
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/9cc9d438-c438-46ee-a2a5-3921aa4b18aa.png?raw=true)
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
+
 
 
 ## Remain Problem
