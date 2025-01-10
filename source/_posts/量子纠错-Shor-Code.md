@@ -97,4 +97,8 @@ $$
 
 + 最后把用Hadamard门转换的物理比特解码为原本的状态
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/7e19b997-e7cd-4c9c-abd0-7f162172c633.png?raw=true)
 
+## Remain Problem
+
+到目前为止, bit flip error和phase flip error都有对应的电路解决了, 但共有的问题就在于任意一种电路都没法处理另一种类型的错误. 而下面就会介绍完备的解决方案.
