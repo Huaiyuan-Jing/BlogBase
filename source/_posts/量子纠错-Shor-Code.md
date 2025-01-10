@@ -65,3 +65,14 @@ bit flip error（比特翻转错误）是最常见的一种错误类型，它指
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/image_2025-01-08_10-14-29.png?raw=true)
 
 在p < 0.5时, 这个Logical Bit能给我们带来更低的错误率.
+
+# Phase Flip
+
+phase flip error相位反转错误是另一种常见的错误类型, 可以表示为一个量子比特意外被添加了一个Z门 ($Z|0> = |0>, Z|1> = -|1>$).
+这种错误用上面的的比特翻转的检测电路无法检测到, 但稍加修改就可以在phase flip error上应用.
+
+## Correction Circuit
+
++ 与bit flip correction circuit一样, 用三个物理比特表示一个逻辑比特, 并且为每个比特添加一个Hadamard门
+
+
