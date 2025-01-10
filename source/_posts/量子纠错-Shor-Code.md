@@ -77,3 +77,20 @@ phase flip error相位反转错误是另一种常见的错误类型, 可以表�
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/41ff177e-2348-4be0-b561-467ab134d3f3.png?raw=true)
 
++ 使用cx检测相邻qubit是否相等, 与bit flip的电路不同的是, 这里对检测的qubit添加了Hadamard门并且翻转了cx的方向.
+
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/d6146133-e052-4969-ad0a-a0e178114040.png?raw=true) 
+
+我们可以用下面这个式子来理解对于一个比特的检测是如何实现的
+$$
+|-+\rangle \xrightarrow{expand} 
+|00\rangle + |01\rangle - |10\rangle - |11\rangle 
+\xrightarrow{cx(0, 1)} |00\rangle + |11\rangle - |10\rangle - |01\rangle
+\xrightarrow{reorder} |- -\rangle
+$$
+
+可以看见, 通过cx门, 被检测位置的$|-\rangle$被传播到了检测位置的比特上, 这样就实现了与上面bit flip检测类似的效果
+
++ 在measure结果对应的位置的比特上应用修复的Z门
+
+
