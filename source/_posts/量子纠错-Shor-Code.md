@@ -93,8 +93,7 @@ phase flip error相位反转错误是另一种常见的错误类型, 可以表�
 
 ## Correction Circuit
 
-+ 与bit flip correction circuit一样, 用三个物理比特表示一个逻辑比特, 并且为每个比特添加一个Hadamard门
-
++ 与bit flip correction circuit一样, 用三个物理比特表示一个逻辑比特, 并且为每个比特添加一个Hadamard门. 用Hadamard门编码的目的是如果phase flip发生在某一个比特上, 它就会把$|+\rangle$翻转为$|-\rangle$, 最后再通过Hadamard门解码就会重新变回$|0\rangle$和$|1\rangle$的状态. 这样就实现了把phase flip转化为了bit flip
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/41ff177e-2348-4be0-b561-467ab134d3f3.png?raw=true)
 
 + 使用cx检测相邻qubit是否相等, 与bit flip的电路不同的是, 这里对检测的qubit添加了Hadamard门并且翻转了cx的方向.
@@ -103,25 +102,25 @@ phase flip error相位反转错误是另一种常见的错误类型, 可以表�
 
 我们可以用下面这个式子来理解对于一个比特的phase flip error检测是如何实现的
 $$
-|-+\rangle \xrightarrow{expand} 
-|00\rangle + |01\rangle - |10\rangle - |11\rangle 
-\xrightarrow{cx(0, 1)} |00\rangle + |11\rangle - |10\rangle - |01\rangle
+|- +\rangle \xrightarrow{expand} 
+\frac{1}{2}(|00\rangle + |01\rangle - |10\rangle - |11\rangle) 
+\xrightarrow{cx(0, 1)} \frac{1}{2}(|00\rangle + |11\rangle - |10\rangle - |01\rangle)
 \xrightarrow{reorder} |- -\rangle
 $$
 
 可以看见, 通过cx门, 被检测位置的$|-\rangle$被传播到了检测位置的比特上, 这样就实现了与上面bit flip检测类似的效果
 
-+ 在measure结果对应的位置的比特上应用修复的Z门
++ 与bit flip circuit类似, 在measure结果对应的位置的比特上应用修复的Z门
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/8778f677-f027-47f7-bb13-c9f1d7ca98b1.png?raw=true)
 
-+ 最后把用Hadamard门转换的物理比特解码为原本的状态
++ 最后把用Hadamard门编码的物理比特解码为原本的状态
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/7e19b997-e7cd-4c9c-abd0-7f162172c633.png?raw=true)
 
 ## Test
 
-实验电路是否正常工作, 与bit flip circuit不同的是, phase flip circuit把物理比特的初始状态通过Hadamard Gate编译再解码, 这样在中间发生的phase flip将会被转换为bit flip并可以通过measure检测.
+实验电路是否正常工作, 因为使用了Hadamard门编码解码, 这样在中间发生的phase flip将会被转换为bit flip并可以通过measure检测.
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/9cc9d438-c438-46ee-a2a5-3921aa4b18aa.png?raw=true)
 
@@ -135,7 +134,7 @@ $$
 
 ![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/a531af4b-85af-4bab-ad57-b0bc44aa41c1.png?raw=true)
 
-如图所示, 三个物理比特上的一个phase flip error是可以被纠正的
+如图所示, 三个物理比特上如果存在一个phase flip error是可以被纠正的
 
 ## Remain Problem
 
