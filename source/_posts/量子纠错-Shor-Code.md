@@ -155,4 +155,8 @@ $$
 
 ## Correction Circuit
 
-+ 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/%E9%87%8F%E5%AD%90%E7%BA%A0%E9%94%99-Shor-Code/2e3b9efd-0e2e-4f8f-8113-b061bec9f8c3.png?raw=true)
+
+## Accuracy Calculate
+
+Shor Code的准确率和之前两个纠错电路一样, 可以纠正任何单个比特的翻转. 所以它的错误率为$1 - (1 - p) ^ 9 - 9 * p * (1 - p) ^ 8$
