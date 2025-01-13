@@ -147,3 +147,12 @@ $$
 ## Remain Problem
 
 到目前为止, bit flip error和phase flip error都有对应的电路解决了, 但共有的问题就在于任意一种电路都没法处理另一种类型的错误. 而下面就会介绍完备的解决方案.
+
+# Shor Code
+
+如果比特翻转和相位翻转错误同时发生在一个逻辑比特上, 解决方案自然是吧两种纠错电路嵌套起来, 具体来说就是把phase flip correction circuit里的三个物理比特分别用三个bit flip correction circuit表示, 当然反过来也可以.
+这样就得到了可以同时处理bit flip和phase flip的Shor Code. 
+
+## Correction Circuit
+
++ 
