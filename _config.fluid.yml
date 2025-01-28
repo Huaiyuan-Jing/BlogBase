@@ -111,9 +111,12 @@ deploy:
   branch: master
 
 index:
+  banner_img: https://wallpapers.com/images/high/dark-souls-solaire-foe1eszrw1symsk7.webp 
+  banner_img_height: 100
+  banner_mask_alpha: 0.5
   slogan:
     enable: true
-    text: "Code Speak Louder Than Word" 
+    text: "Long May The Sunshine" 
     api:
       enable: false
       url: "https://v1.hitokoto.cn/"
@@ -122,12 +125,18 @@ index:
       keys: ["hitokoto"]
 
 post:
+  banner_img: https://wallpapers.com/images/high/dark-souls-solaire-foe1eszrw1symsk7.webp 
+  banner_img_height: 100
+  banner_mask_alpha: 0.5
   math:
     enable: true
     specific: true
     engine: mathjax
 
 about:
+  banner_img: https://wallpapers.com/images/high/dark-souls-solaire-foe1eszrw1symsk7.webp 
+  banner_img_height: 100
+  banner_mask_alpha: 0.5
   icons: 
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/Huaiyuan-Jing', tip: 'GitHub' } 
     - { class: 'iconfont icon-linkedin-fill', link: 'https://www.linkedin.com/in/huaiyuan-jing-823b93240/', tip: 'GitHub' } 
