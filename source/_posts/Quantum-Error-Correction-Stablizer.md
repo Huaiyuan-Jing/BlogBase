@@ -8,7 +8,7 @@ tags: [
 categories: []
 index_img:
 banner:
-math:
+math: true
 ---
 
 <!-- @format -->
@@ -26,3 +26,17 @@ So here stablizers work. Stablizers build quantum entanglement between target qu
 
 Consider the simple circuit:
 
+![](https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/Quantum-Error-Correction-Stablizer/circ1.png?raw=true)
+
+Assume $q_0$ is an arbitrary state, what information can we get by measuring $q_1$ in this circuit?
+
+$$
+\begin{align}
+q_0q_1 = (a|0\rangle + b|1\rangle) \otimes |0\rangle \\\\
+\xrightarrow{h(1)} (a|0\rangle + b|1\rangle) \otimes |+\rangle \\\\
+\xrightarrow{cx(1, 0)} \frac{\sqrt{2}}{2}(a|00\rangle + b|01\rangle + b|10\rangle + a|11\rangle) \\\\
+\xrightarrow{h(1)} \frac{\sqrt{2}}{2}[(a + b)|+\rangle \otimes |0\rangle + (a - b)|-\rangle \otimes |1\rangle]
+\end{align} 
+$$
+
+So measuring $q_1$ is actually measuring $q_0$ with base $\lbrace|+\rangle, |-\rangle\rbrace$ instead of base $\lbrace|0\rangle, |1\rangle\rbrace$. The key point of this circuit is it does not measure on $q_0$ directly, so $q_0$ is still able to use in the following computation.
