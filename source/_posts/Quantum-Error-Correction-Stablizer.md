@@ -22,3 +22,7 @@ So here stablizers work. Stablizers build quantum entanglement between target qu
 
 # What is stablizer?
 
+## Measurement by Pauli Operations
+
+Consider the simple circuit:
+
