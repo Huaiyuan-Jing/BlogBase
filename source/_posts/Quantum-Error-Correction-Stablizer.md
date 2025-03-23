@@ -6,7 +6,7 @@ tags: [
   Quantum Computing
 ]
 categories: []
-index_img:
+index_img: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/Quantum-Error-Correction-Stablizer/circ1.png?raw=true
 banner:
 math: true
 ---
