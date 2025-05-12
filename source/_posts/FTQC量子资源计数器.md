@@ -7,3 +7,7 @@ index_img:
 banner:
 math: true
 ---
+
+# 为什么需要资源计数器
+
+
