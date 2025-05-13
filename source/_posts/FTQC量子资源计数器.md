@@ -3,8 +3,7 @@ title: 'FTQC量子资源计数器'
 tags: [
   Quantum Computing
 ]
-index_img:
-
+index_img: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/source/_posts/FTQC%E9%87%8F%E5%AD%90%E8%B5%84%E6%BA%90%E8%AE%A1%E6%95%B0%E5%99%A8/ChatGPT%20Image%202025%E5%B9%B45%E6%9C%8813%E6%97%A5%2015_26_54.png?raw=true
 banner:
 math: true
 ---
