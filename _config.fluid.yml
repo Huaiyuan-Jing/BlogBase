@@ -4,8 +4,8 @@
 
 # Site
 title: Programming Diary 
-avatar: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Sisyphus.jpg?raw=true
-favicon: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Sisyphus.jpg?raw=true
+avatar: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Hatta.png?raw=true
+favicon: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Hatta.png?raw=true
 subtitle: ''
 description: ''
 keywords:
@@ -140,7 +140,7 @@ about:
   icons: 
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/Huaiyuan-Jing', tip: 'GitHub' } 
     - { class: 'iconfont icon-linkedin-fill', link: 'https://www.linkedin.com/in/huaiyuan-jing-823b93240/', tip: 'GitHub' } 
-  avatar: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Sisyphus.jpg?raw=true
+  avatar: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/RetHat.png?raw=true
   name: "Lucien Jing"
   intro: "Long May The Sunshine"
 
