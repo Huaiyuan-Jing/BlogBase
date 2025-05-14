@@ -111,9 +111,9 @@ deploy:
   branch: master
 
 index:
-  banner_img: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/background.png?raw=true
-  banner_img_height: 100
-  banner_mask_alpha: 0.5
+  banner_img: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/280eb5fb-52ae-4a64-be81-a582754c61ae/d82mts1-d4b8cd8b-b693-419f-92df-386bbfb7a862.png/v1/fill/w_1280,h_854,q_80,strp/solaire_of_astora_by_admhire_d82mts1-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvMjgwZWI1ZmItNTJhZS00YTY0LWJlODEtYTU4Mjc1NGM2MWFlXC9kODJtdHMxLWQ0YjhjZDhiLWI2OTMtNDE5Zi05MmRmLTM4NmJiZmI3YTg2Mi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yuTdOAvUaDaIMDArLdCLyZf_KNwOKDNawveUThApmtE
+  banner_mask_height: 100
+  banner_mask_alpha: 0.2
   slogan:
     enable: true
     text: "All those moments will be lost in time, like tears in rain." 
