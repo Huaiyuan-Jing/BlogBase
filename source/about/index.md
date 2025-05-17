@@ -2,6 +2,7 @@
 menu_id: about
 title: About
 layout: about
+comment: True
 ---
 
 Lucien is a skilled computer science and mathematics student at the University of Wisconsin-Madison, graduating in May 2026. With a strong foundation in algorithm design and computational mathematics, he has earned accolades such as the Golden Medal in the prestigious International Collegiate Programming Contest (ICPC) and demonstrated expertise in TensorFlow and quantum computing.
