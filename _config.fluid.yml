@@ -114,6 +114,8 @@ index:
   banner_img: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Map.jpg?raw=true
   banner_mask_height: 100
   banner_mask_alpha: 0.2
+  auto_excerpt:
+    enable: true
   slogan:
     enable: true
     text: "All those moments will be lost in time, like tears in rain." 
@@ -132,6 +134,9 @@ post:
     enable: true
     specific: true
     engine: mathjax
+  comments:
+    enable: true
+    type: gitalk
 
 about:
   banner_img: https://github.com/Huaiyuan-Jing/BlogBase/blob/main/Map.jpg?raw=true
@@ -177,3 +182,10 @@ navbar:
     - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill', name: 'Tag' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: 'About' }
     - { key: 'links', link: '/links/', icon: 'iconfont icon-link-fill' }
+
+gitalk:
+  clientID: 'Ov23li2yI04wDQ7Iy4xP'
+  clientSecret: 'd89a07029a388e53e47b4ab798955aaab2557e28'
+  repo: 'huaiyuan-jing.github.io'
+  owner: 'Huaiyuan-Jing'
+  admin: 'Huaiyuan-Jing'

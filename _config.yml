@@ -111,3 +111,15 @@ deploy:
   type: git
   repo: https://github.com/Huaiyuan-Jing/Huaiyuan-Jing.github.io
   branch: master
+
+plugins:
+  - hexo-generator-index
+  - hexo-plugin-gitalk
+
+gitalk:
+  clientID: Ov23li2yI04wDQ7Iy4xP
+  clientSecret: d89a07029a388e53e47b4ab798955aaab2557e28
+  repo: huaiyuan-jing.github.io
+  owner: Huaiyuan-Jing
+  admin: Huaiyuan-Jing
+  createIssueManually: false
