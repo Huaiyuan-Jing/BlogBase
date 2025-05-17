@@ -189,3 +189,4 @@ gitalk:
   repo: 'huaiyuan-jing.github.io'
   owner: 'Huaiyuan-Jing'
   admin: 'Huaiyuan-Jing'
+  createIssueManually: false
